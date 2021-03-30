@@ -17,7 +17,7 @@ const Services = () => {
                 <Box className={classes.servicetext}>Lorem ipsum dolor sit amet consectetur adipisicing
                  elit. Fuga distinctio recusandae ex architecto adipisci sequi quis facere odio quos at.</Box>
             </Box>
-            <Box display="flex" justifyContent="center">
+            <Box display="flex" justifyContent="center" flexWrap="wrap">
                 <Box ml={1.5} mr={1.5} className={classes.boxstyle}>
                     <Box>
                         <Image

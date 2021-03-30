@@ -34,6 +34,7 @@ const Quote = () => {
         <div className={css`
             background-image: url("images/library.png");
             height: 400px;
+            padding: 0 30px 0 35px;
         `}>
             <div className={css`
                 display: flex;
