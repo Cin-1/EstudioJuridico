@@ -14,14 +14,16 @@ const IndexHome = () => {
 
     return ( 
             <Box align="center" className={classes.container}>
-                <Image 
-                    src="/images/fondo.jpg" alt="" 
-                    width={1350} 
-                    height={700} 
-                    objectFit="cover" 
-                    quality={100} 
-                    className={classes.filtering}
-                />
+                <Box>
+                    <Image 
+                        src="/images/fondo.jpg" alt="abogado"
+                        width={1350} 
+                        height={700} 
+                        objectFit="cover" 
+                        quality={100} 
+                        className={classes.filtering}
+                    />
+                </Box>
                 <Box className={classes.centered}>
                     <h2 className={classes.title}>Lorem ipsum dolor sit amet</h2>
                     <p className={classes.text}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt at corrupti tempore amet inventore magni!</p>

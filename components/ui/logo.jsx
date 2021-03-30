@@ -1,5 +1,6 @@
 import React from 'react';
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from 'next/link';
 
 import {
     Box
@@ -8,13 +9,15 @@ import {
 const Logo = () => {
     return ( 
         <Box>
-            <Image 
-                src="/images/joker.png" alt="" 
-                width={100} 
-                height={40} 
-                objectFit="cover" 
-                quality={100} 
-            />
+            <Link href="/#">
+                <Image 
+                    src="/images/joker.png" alt="" 
+                    width={100} 
+                    height={40} 
+                    objectFit="cover" 
+                    quality={100} 
+                />
+            </Link>
         </Box>
      );
 }
