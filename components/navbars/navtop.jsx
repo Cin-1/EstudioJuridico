@@ -41,10 +41,10 @@ const NavTop = () => {
             </Box>
             <Box mr={5} pt={1.5} pb={1.5} display="flex">
                 <Box>
-                    <FacebookIcon color="secondary" />
+                    <Link href="/#"><FacebookIcon className={classes.iconpointer} color="secondary" /></Link>
                 </Box>
                 <Box ml={2}>
-                    <InstagramIcon color="secondary" />
+                    <Link href="/#"><InstagramIcon className={classes.iconpointer} color="secondary" /></Link>
                 </Box>
             </Box>
         </Box>
@@ -55,11 +55,14 @@ export default NavTop;
 
 const useStyles = makeStyles({
     textnavtop: {
-        color: "lightgrey",
+        color: "#ababab",
         fontSize: "1rem",
 
         "&:hover": {
-            color: "#fff",
+            color: "#B69D74",
         }
+    },
+    iconpointer: {
+        cursor: "pointer",
     },
   });

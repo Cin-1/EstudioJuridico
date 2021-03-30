@@ -11,7 +11,7 @@ const Services = () => {
     const classes = useStyles();
 
     return ( 
-        <Box>
+        <Box mb={5}>
             <Box align="center" mb={4} mt={5}>
                 <Box className={classes.servicetitle}>nuestros servicios</Box>
                 <Box className={classes.servicetext}>Lorem ipsum dolor sit amet consectetur adipisicing

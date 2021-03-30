@@ -12,12 +12,12 @@ const Menu = () => {
 
     return ( 
         <Box display="flex">
-            <Link href="/"><a className={classes.textmenu}>Lorem</a></Link>
-            <Link href="/"><a className={classes.textmenu}>Lorem</a></Link>
-            <Link href="/"><a className={classes.textmenu}>Lorem</a></Link>
-            <Link href="/"><a className={classes.textmenu}>Lorem</a></Link>
-            <Link href="/"><a className={classes.textmenu}>Lorem</a></Link>
-            <Link href="/"><a className={classes.textmenu}>Lorem</a></Link>
+            <Link href="/"><a className={classes.textinicio}>Inicio</a></Link>
+            <Link href="/#"><a className={classes.textmenu}>Lorem</a></Link>
+            <Link href="/#"><a className={classes.textmenu}>Lorem</a></Link>
+            <Link href="/#"><a className={classes.textmenu}>Lorem</a></Link>
+            <Link href="/#"><a className={classes.textmenu}>Lorem</a></Link>
+            <Link href="/#"><a className={classes.textmenu}>Lorem</a></Link>
         </Box>
      );
 }
@@ -25,8 +25,14 @@ const Menu = () => {
 export default Menu;
 
 const useStyles = makeStyles({
+    textinicio: {
+        color: "#B69D74",
+        fontSize: "1rem",
+        fontWeight: "bold",
+        paddingLeft: "2rem",
+    },
     textmenu: {
-        color: "lightgrey",
+        color: "#ababab",
         fontSize: "1rem",
         fontWeight: "bold",
         paddingLeft: "2rem",
