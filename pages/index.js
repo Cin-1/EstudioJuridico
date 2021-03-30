@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from '../components/header';
 import IndexHome from '../components/indexhome';
 import Services from '../components/services';
-import Quotes from '../components/quotes';
+import Quote from '../components/quote';
 import Footer from '../components/footer';
 import theme from "../components/theme/theme";
 import { ThemeProvider } from "@material-ui/core/styles";
@@ -18,7 +18,7 @@ export default function Home() {
         <Header />
         <IndexHome />
         <Services />
-        <Quotes />
+        <Quote />
         <Footer />
       </ThemeProvider>
     </div>
