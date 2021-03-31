@@ -37,6 +37,7 @@ const useStyles = makeStyles({
     bgimg: {
         backgroundImage: `url(images/fondo.png)`,
         backgroundSize: "cover",
+        backgroundAttachment: "fixed",
         width: "100%",
         height: "100vh" 
     },

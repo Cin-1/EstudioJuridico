@@ -10,7 +10,8 @@ const Header = () => {
     return ( 
         <Box style={{
             position: "fixed",
-            width: "100%", 
+            width: "100%",
+            zIndex: "99995" 
          }}>
             <NavTop />
             <NavBottom />

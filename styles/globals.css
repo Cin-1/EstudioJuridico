@@ -17,6 +17,12 @@ a {
 
 /* Home CSS */
 
+.togglebox {        
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .contenedor{
   position: relative;
   display: inline-block;
